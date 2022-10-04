@@ -31,7 +31,7 @@ Note that we will compile with your alloc_grid.c file. Make sure it compiles.
 Prototype: char *argstostr(int ac, char **av);
 Returns NULL if ac == 0 or av == NULL
 Returns a pointer to a new string, or NULL if it fails
-Each argument should be followed by a \n in the new strin
+Each argument should be followed by a \n in the new string
 6 - Write a function that splits a string into words.
 
 Prototype: char **strtow(char *str);
